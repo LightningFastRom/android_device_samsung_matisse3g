@@ -25,9 +25,6 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_matisse3g_defconfig
 
-# Radio Properties
-TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
-
 # Radio
 BOARD_PROVIDES_LIBRIL := true
 TARGET_RIL_VARIANT := caf
